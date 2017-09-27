@@ -69,7 +69,7 @@ footer {
     line-height: 50px;
     text-align: center;
     border-top: 10px solid #4aaaa5;
-    margin: 100px 0 0 0;
+    margin: 40px 0 0 0;
     background-color: #666666;
 }
 
@@ -258,7 +258,21 @@ textarea:focus {
 
 @media only screen and (max-width: 768px) {
     /* For tablet: */
-    
+    .main {
+        width: 720px;
+    }
+    .content,
+    .con-header {
+        width: 720px;
+    }
+    .tile {
+        width: 305px;
+    }
+    .connect {
+        width: 720px;
+        float: none;
+        margin: 40px 0 0 0;
+    }
 }
 
 @media only screen and (max-width: 640px) {
